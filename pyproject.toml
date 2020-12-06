@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Small wrapper over django-storages S3Boto3Storage with sane defaults for DigitalOcean Spaces usage."
 authors = ["Marcelo Cueto <cueto@live.cl>"]
 license = "GPLv3"
+readme = 'README.md'
 packages = [
     { include = "storages-dospaces" },
 ]
