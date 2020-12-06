@@ -3,7 +3,7 @@ Small wrapper over django-storages S3Boto3Storage with sane defaults for Digital
 
 
 ## Installation via pip
-```
+```bash
 pip install django-storages-dospaces
 ```
 
@@ -15,7 +15,7 @@ The following environment variables must be set in order to use this package wit
 
 `DO_SPACES_ENDPOINT_URL` must point to your Space server region, eg: if your space is on `sfo2`, the URL should be `https://sfo2.digitaloceanspaces.com`
 
-```
+```sh
 DO_SPACES_ACCESS_KEY_ID='<your Space id >'
 DO_SPACES_CACHE_MAX_AGE='86400'
 DO_SPACES_DEFAULT_ACL='None'
@@ -32,7 +32,7 @@ Once they are set, they can be gotten from your `settings.py` file using `os.env
 ### Settings file
 In order to enable this package behaviour you will have to set the following settings on your project's `settings.py` file
 
-```
+```python
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
